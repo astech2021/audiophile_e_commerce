@@ -323,6 +323,22 @@ const Form = ({ onFormValid, onProcessing }) => {
             />
             <label htmlFor="payment2">Cash on Delivery</label>
           </div>
+          
+          <div
+            className={`${classes.fieldpayment} ${
+              active === 3 && classes.active
+            }`}
+          >
+            <input
+              id="payment3"
+              name="payment"
+              type="radio"
+              onClick={() => setActive(3)}
+              defaultChecked={active === 3 ? true : false}
+            />
+            <label htmlFor="payment3">Mobile Money</label>
+          </div>
+
           {active === 1 ? (
             <>
               <div className={classes.cardgroup}>
