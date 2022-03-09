@@ -18,7 +18,7 @@ const Footer = () => {
             to helping you get the most out of personal audio. Come and visit
             our demo facility - we’re open 7 days a week.
           </p>
-          <p className={classes.copy}>Copyright 2021. All Rights Reserved</p>
+          <p className={classes.copy}>Copyright 2022. All Rights Reserved</p>
         </div>
         <div className={classes.right}>
           <nav>
