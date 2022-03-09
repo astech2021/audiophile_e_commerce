@@ -14,7 +14,7 @@ const ProductItem = ({ name, description, newOne, image, item, price }) => {
           {newOne && <h3>New Product</h3>}
           <h1>{name}</h1>
           <p>{description}</p>
-          <p className={classes.price}>{`$ ${price.toLocaleString(
+          <p className={classes.price}>{`GH₵ ${price.toLocaleString(
             "en-US"
           )}`}</p>
           <NumberInput price={price} item={item[0]} />
