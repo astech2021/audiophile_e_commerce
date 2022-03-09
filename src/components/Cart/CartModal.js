@@ -86,7 +86,7 @@ const CartModal = () => {
         </div>
         <div className={classes.total}>
           <h3>TOTAL</h3>
-          <h2>{`$ ${cartCtx.totalPrice.toLocaleString("en-US")}`}</h2>
+          <h2>{`GH₵ ${cartCtx.totalPrice.toLocaleString("en-US")}`}</h2>
         </div>
 
         <Button
