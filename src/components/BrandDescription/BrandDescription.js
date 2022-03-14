@@ -1,5 +1,5 @@
 import React from "react";
-import classes from "./BrandDescription.module.css";
+import classes from "./BrandDescription.css";
 import EarphoneGuy from "../../assets/shared/desktop/image-best-gear.jpg";
 
 const BrandDescription = () => {
