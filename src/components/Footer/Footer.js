@@ -1,4 +1,4 @@
-import classes from "./Footer.module.css";
+import classes from "./Footer.css";
 import React from "react";
 import { ReactComponent as ReactLogo } from "../../assets/shared/desktop/logo.svg";
 import { NavLink } from "react-router-dom";
