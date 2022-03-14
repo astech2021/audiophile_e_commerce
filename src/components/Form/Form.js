@@ -1,7 +1,7 @@
 import React, { useState, useContext } from "react";
 import { CartContext } from "../../store/CartProvider";
 import { Link } from "react-router-dom";
-import classes from "./Form.module.css";
+import classes from "./Form.css";
 import { CountryDropdown, RegionDropdown } from "react-country-region-selector";
 import { ReactComponent as ReactLogo } from "../../assets/shared/desktop/payment.svg";
 import { CardElement, useElements, useStripe } from "@stripe/react-stripe-js";
