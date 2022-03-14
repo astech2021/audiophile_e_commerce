@@ -1,5 +1,5 @@
 import React from "react";
-import classes from "./Header.module.css";
+import classes from "./Header.css";
 import { NavLink } from "react-router-dom";
 import { ReactComponent as ReactLogo } from "../../assets/shared/desktop/logo.svg";
 import CartButton from "../Cart/CartButton";
