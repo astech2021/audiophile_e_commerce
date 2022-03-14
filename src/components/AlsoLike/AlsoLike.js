@@ -3,7 +3,7 @@ import { DataContext } from "../../store/DataProvider";
 import ErrorModal from "../UI/ErrorModal";
 import LoadingSpinner from "../UI/LoadingSpinner";
 import Button from "../UI/Button";
-import classes from "./AlsoLike.module.css";
+import classes from "./AlsoLike.css";
 
 const firstWord = (name) => {
   const ind = name.indexOf(" ");
