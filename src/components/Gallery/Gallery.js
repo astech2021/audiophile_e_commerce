@@ -1,4 +1,4 @@
-import classes from "./Gallery.css";
+import classes from "./Gallery.module.css";
 import React from "react";
 
 const Gallery = ({ gallery, name }) => {
