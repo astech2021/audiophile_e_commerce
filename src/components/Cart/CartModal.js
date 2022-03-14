@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-import classes from "./CartModal.css";
+import classes from "./CartModal.module.css";
 import { CartContext } from "../../store/CartProvider";
 import Button from "../UI/Button";
 import { firstWord } from "../../helpers/helpers";
