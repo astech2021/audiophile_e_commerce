@@ -4,7 +4,7 @@ import Headphones from "./pages/Headphones/Headphones";
 import Home from "./pages/Home/Home";
 import Speakers from "./pages/Speakers/Speakers";
 import Earphones from "./pages/Earphones/Earphones";
-import classes from "./App.module.css";
+import classes from "./App.css";
 import Checkout from "./pages/Checkout/Checkout";
 import ProductDetail from "./pages/ProductDetail/ProductDetail";
 import { DataContext } from "./store/DataProvider";
