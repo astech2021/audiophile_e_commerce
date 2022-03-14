@@ -1,4 +1,4 @@
-import classes from "./MainHead.css";
+import classes from "./MainHead.module.css";
 import Button from "../../components/UI/Button";
 import React, { useContext } from "react";
 import { DataContext } from "../../store/DataProvider";
