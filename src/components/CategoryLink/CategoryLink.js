@@ -1,4 +1,4 @@
-import classes from "./CategoryLink.module.css";
+import classes from "./CategoryLink.css";
 import React from "react";
 import { Link } from "react-router-dom";
 import { ReactComponent as ReactIcon } from "../../assets/shared/desktop/icon-arrow-right.svg";
