@@ -1,4 +1,4 @@
-import classes from "./Hero.css";
+import classes from "./Hero.module.css";
 import Header from "../Header/Header";
 import MainHead from "../MainHead/MainHead";
 import React from "react";
