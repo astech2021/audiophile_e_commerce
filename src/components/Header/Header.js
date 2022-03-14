@@ -1,5 +1,5 @@
 import React from "react";
-import classes from "./Header.css";
+import "./Header.css";
 import { NavLink } from "react-router-dom";
 import { ReactComponent as ReactLogo } from "../../assets/shared/desktop/logo.svg";
 import CartButton from "../Cart/CartButton";
@@ -7,20 +7,20 @@ import CartButton from "../Cart/CartButton";
 const Header = () => {
   return (
     <React.Fragment>
-      <div className={classes.header}>
-        <ReactLogo className={classes.logo} />
+      <div className="header">
+        <ReactLogo className="logo" />
         <nav>
           <ul>
             <li>
-              <NavLink to="/" className={classes.link}>
+              <NavLink to="/" className="link">
                 Home
               </NavLink>
             </li>
             <li>
               <NavLink
                 to="/headphones"
-                className={classes.link}
-                activeClassName={classes.active}
+                className="link"
+                activeClassName="active"
               >
                 Headphones
               </NavLink>
@@ -28,8 +28,8 @@ const Header = () => {
             <li>
               <NavLink
                 to="/speakers"
-                className={classes.link}
-                activeClassName={classes.active}
+                className="link"
+                activeClassName="active"
               >
                 Speakers
               </NavLink>
@@ -37,8 +37,8 @@ const Header = () => {
             <li>
               <NavLink
                 to="/earphones"
-                className={classes.link}
-                activeClassName={classes.active}
+                className="link"
+                activeClassName="active"
               >
                 Earphones
               </NavLink>
@@ -46,7 +46,7 @@ const Header = () => {
           </ul>
         </nav>
         <CartButton />
-        <span className={classes.line}>&nbsp;</span>
+        <span className="line">&nbsp;</span>
       </div>
     </React.Fragment>
   );
