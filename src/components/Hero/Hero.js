@@ -1,6 +1,6 @@
 import classes from "./Hero.css";
 import Header from "../Header/Header";
-import MainHead from "../MainHead.js/MainHead";
+import MainHead from "../MainHead/MainHead";
 import React from "react";
 
 const Hero = () => {
