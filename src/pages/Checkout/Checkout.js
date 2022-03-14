@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import Footer from "../../components/Footer/Footer";
 import Header from "../../components/Header/Header";
-import classes from "./Checkout.module.css";
+import classes from "./Checkout.css";
 import Form from "../../components/Form/Form";
 import Summary from "../../components/Summary/Summary";
 import { Elements } from "@stripe/react-stripe-js";
