@@ -1,4 +1,4 @@
-import classes from "./CategoryTop.module.css";
+import classes from "./CategoryTop.css";
 import Header from "../../components/Header/Header";
 import React from "react";
 
