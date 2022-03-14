@@ -1,4 +1,4 @@
-import classes from "./ProductDetail.module.css";
+import classes from "./ProductDetail.css";
 import React, { useEffect, useContext, useState } from "react";
 import Header from "../../components/Header/Header";
 import ErrorModal from "../../components/UI/ErrorModal";
