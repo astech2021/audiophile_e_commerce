@@ -1,5 +1,5 @@
 import React from "react";
-import "./Header.css";
+import classes from "./Header.module.css";
 import { NavLink } from "react-router-dom";
 import { ReactComponent as ReactLogo } from "../../assets/shared/desktop/logo.svg";
 import CartButton from "../Cart/CartButton";
@@ -7,20 +7,20 @@ import CartButton from "../Cart/CartButton";
 const Header = () => {
   return (
     <React.Fragment>
-      <div className="header">
-        <ReactLogo className="logo" />
+      <div className={classes.header}>
+        <ReactLogo className={classes.logo} />
         <nav>
           <ul>
             <li>
-              <NavLink to="/" className="link">
+              <NavLink to="/" className={classes.link}>
                 Home
               </NavLink>
             </li>
             <li>
               <NavLink
                 to="/headphones"
-                className="link"
-                activeClassName="active"
+                className={classes.link}
+                activeClassName={classes.active}
               >
                 Headphones
               </NavLink>
@@ -28,8 +28,8 @@ const Header = () => {
             <li>
               <NavLink
                 to="/speakers"
-                className="link"
-                activeClassName="active"
+                className={classes.link}
+                activeClassName={classes.active}
               >
                 Speakers
               </NavLink>
@@ -37,8 +37,8 @@ const Header = () => {
             <li>
               <NavLink
                 to="/earphones"
-                className="link"
-                activeClassName="active"
+                className={classes.link}
+                activeClassName={classes.active}
               >
                 Earphones
               </NavLink>
@@ -46,7 +46,7 @@ const Header = () => {
           </ul>
         </nav>
         <CartButton />
-        <span className="line">&nbsp;</span>
+        <span className={classes.line}>&nbsp;</span>
       </div>
     </React.Fragment>
   );
